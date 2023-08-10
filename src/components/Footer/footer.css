@@ -1,0 +1,44 @@
+
+.footer-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #131313;
+  height: 60vh;
+  color: white;
+  font-family: "Poppins";
+  margin-top: 5rem;
+}
+.footer-card{
+  position: relative;
+  background-color: #237dd1;
+  width: 15rem;
+  height: 17rem;
+  padding: 0.5rem 1rem;
+  margin-top: -3rem;
+}
+.footer-card p{
+  font-size: 0.7rem;
+}
+.footer-link-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display 3 columns with equal width */
+  gap: 2rem;
+  margin-left: 5rem;
+  margin-top: 3rem;
+}
+.links h1{
+  font-size: 1rem;
+}
+.links p{
+  font-size: 0.7rem;
+  margin-top: 0rem;
+}
+.copyrights{
+  position: relative;
+  font-size: 0.7rem;
+  font-family: 'Poppins';
+  color: white;
+  margin-top: -2rem;
+  margin-left: 27rem;
+}

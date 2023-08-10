@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bren-image-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-image: url(./assets/gren.jpg);
+  width: 100%;
+  height: 500px; /* Set the height of the container */
+  background-size: cover; /* Scale the image to cover the entire container */
+  background-position: center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent image repetition */
+}
+.headings-gloves h1{
+  font-family: 'Lora';
+  width: 10rem;
+  font-size: 4rem;
+  font-style: bold;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  margin-bottom: 0;
+}
+
+.hight-quality{
   color: white;
+  font-family: 'Poppins';
+  font-size: 2rem;
+  margin-top: 0;
 }
-
-.App-link {
-  color: #61dafb;
+.headings-gloves button{
+  font-family: 'Poppins';
+  color: white;
+  background: #237dd1;
+  border: none;
+  padding: 0.2rem 1rem;
+  /*Skewthetoprightcorner*/transform: skewX(-20deg);
+  /*Skewtheentirebutton*/cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -ms-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headings-gloves button:hover{
+  background-color: #1863aa;
+}
+.larki{
+  width: 25rem;
+  margin-left: 7rem;
+}
+.notSkewed{
+  color:rgb(255, 255, 255);
+  transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  -moz-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  -o-transform: skewX(20deg);
+  font-size: 0.7rem;
 }

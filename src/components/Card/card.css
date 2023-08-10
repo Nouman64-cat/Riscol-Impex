@@ -1,0 +1,24 @@
+.card-container{
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  height: 20rem;
+  box-shadow: 0 30px 20px rgba(0, 0, 0, 0.6);
+  background-image: url(../../assets/blog.jpg);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.card-container button{
+  width: 100%;
+  background: #237dd1;
+  color: white;
+  font-family: "Poppins";
+  border: none;
+  font-size: 1.2rem;
+  height: 4.2rem;
+  margin-top: 17rem;
+}

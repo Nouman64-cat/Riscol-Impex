@@ -1,0 +1,122 @@
+.navbar-container{
+  display: flex;
+  flex-direction: column;
+}
+.navbar-parallelogram{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 35%;
+  height: 50px;
+  background-color: #237dd1;
+  transform: skew(-50deg);
+  margin-bottom: 10px;
+  -webkit-transform: skew(-50deg);
+  -moz-transform: skew(-50deg);
+  -ms-transform: skew(-50deg);
+  -o-transform: skew(-50deg);
+  margin-left: 5rem;
+  
+}
+.navbar-parallelogram-text h3{
+  color: white;
+  font-family: 'Poppins';
+  font-size: 15px;
+  margin-right: 3rem;
+  font-weight: 300;
+  transform: skew(50deg);
+  -webkit-transform: skew(50);
+  -moz-transform: skew(50);
+  -ms-transform: skew(50);
+  -o-transform: skew(50);
+}
+.navbar-icons{
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+  justify-content: space-between;
+  width: 30%;
+  transform: skew(50deg);
+  -webkit-transform: skew(50deg);
+  -moz-transform: skew(50deg);
+  -ms-transform: skew(50deg);
+  -o-transform: skew(50deg);
+  padding-left: 3rem;
+}
+.icon {
+  color: white;
+  font-size: 18px; /* Adjust the icon size as needed */
+}
+
+.icon:hover {
+  opacity: 0.8; /* Add a hover effect if desired */
+}
+.navbar-contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 3rem;
+  gap: 1rem;
+  font-family: 'Poppins';
+  font-size: 0.9rem;
+  margin-top: -1rem;
+}
+.navbar-contact1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+.phone-icon {
+  color: #237dd1;
+}
+
+.email-icon {
+  color: #237dd1;
+}
+
+.internet-icon {
+  color: #237dd1;
+}
+.navbar-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+  font-family: 'Poppins';
+}
+.navbar-links h1{
+  font-family: 'Poppins';
+  margin-left: 3rem;
+  color: #237dd1;
+  font-weight: 1000;
+  font-style: bold;
+}
+.navbar-links-pages{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #237dd1;
+  width: 57%;
+  height: 4rem;
+  /* margin-left: 21rem; */
+  margin-top: 2rem;
+  font-size: 0.8rem;
+
+}
+.navbar-links-pages p:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.shopping-icon {
+  cursor: pointer;
+  color: white;
+}
+
+.search-icon {
+  cursor: pointer;
+  color: white;
+}

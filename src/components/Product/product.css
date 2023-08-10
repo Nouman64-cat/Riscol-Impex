@@ -1,0 +1,21 @@
+.product-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.larki-image{
+  width: 10rem;
+}
+.product-box h2{
+  font-family: 'Poppins';
+  font-size: 1rem;
+  color: #3d3d3d;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.product-box p{
+  font-family: 'Poppins';
+  color: #237dd1;
+  margin-top: 0;
+  font-weight: 600;
+}
